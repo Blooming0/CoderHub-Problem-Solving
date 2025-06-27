@@ -14,7 +14,7 @@ public class RamdanFanos {
             } else {
                 currentSum = currentSum + brightness[i];
             }
-
+            System.out.println("hello wordl!");
             // إذا المجموع الحالي أكبر من أعلى مجموع، نحدثه
             if (currentSum > maxSum) {
                 maxSum = currentSum;
